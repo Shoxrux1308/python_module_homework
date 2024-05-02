@@ -11,3 +11,5 @@ def perform_trigonometric_calculations(angle):
     Returns:
         tuple: A tuple containing the sine, cosine, and tangent of the angle.
     """
+    return math.sin(math.radians(angle))
+print(perform_trigonometric_calculations(45))
